@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4">Добро пожаловать в Minibidlo!</h1>
+    <p class="lead">Мы предлагаем качественные окна и стекла для вашего дома или офиса.</p>
+    <hr class="my-4">
+    <p>Выберите один из разделов ниже для знакомства или дальнейшего просмотра:</p>
+
+    <div class="row">
+        <!-- Карточка "О нас" -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="~/img/about_us.jpg" class="card-img-top" alt="О нас">
+                <div class="card-body">
+                    <h5 class="card-title">О нас</h5>
+                    <p class="card-text">Узнайте больше о нашей команде и о том, чем мы занимаемся.</p>
+                    <a href="/Home/AboutUs" class="btn btn-primary">Начать знакомство</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка "Продукты" -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="~/img/products.jpg" class="card-img-top" alt="Продукты">
+                <div class="card-body">
+                    <h5 class="card-title">Продукты</h5>
+                    <p class="card-text">Ознакомьтесь с нашими качественными окнами и стеклами.</p>
+                    <a href="/Home/Products" class="btn btn-primary">Просмотреть продукцию</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка "Профиль" -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="~/img/profile.jpg" class="card-img-top" alt="Профиль">
+                <div class="card-body">
+                    <h5 class="card-title">Профиль</h5>
+                    <p class="card-text">Управляйте своим личным профилем и настройками.</p>
+                    <a href="/Home/Profile" class="btn btn-primary">Перейти в профиль</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
